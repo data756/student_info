@@ -15,8 +15,7 @@ import service.student_info.controller.Student_Info;
 import service.student_info.repository.StudentRepository;
 
 
-@SpringBootApplication(excludeName = "")
-@EnableJpaRepositories(basePackages = "service.student_info.*")
+@SpringBootApplication
 public class StudentInfoApplication implements CommandLineRunner {
 
 
